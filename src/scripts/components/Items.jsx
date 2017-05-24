@@ -54,7 +54,7 @@ export default class Items extends React.Component {
     }
 
     fetchPhotos(searchKey, maxCount) {
-        const url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=286fc9f2803603d572d2a8660d9ad131&tags=${searchKey}&per_page=${maxCount}&format=rest`;
+        const url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=89d67241ccf87a60cf2b2b11b6217741&tags=${searchKey}&per_page=${maxCount}&format=rest`;
 
         window.fetch(url, {
             method: 'get',
